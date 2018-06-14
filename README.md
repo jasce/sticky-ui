@@ -1,7 +1,7 @@
-# sticky-ui
+# Sticky-ui
 An integratable chat client.
 
-## Instructions
+### Instructions
 
 The setup uses precommit hook in order to check and run some scripts before any code is commited locally.
 
@@ -10,14 +10,14 @@ The setup uses precommit hook in order to check and run some scripts before any 
 - Then, a commit script runs to check the format of the commit message. Recommended commit message is described below.
 
 
-## Installation/Usage
+### Installation/Usage
 
 - Clone the repo.
 - cd repo
 - Run ```yarn ``` to install dependencies.
 - Run ``` npm install ``` to start the dev server.
 
-## Commit Message Format
+### Commit Message Format
 
 - A valid commit assumes the following structure:
  
@@ -43,3 +43,10 @@ The setup uses precommit hook in order to check and run some scripts before any 
  - Commit message must be in all lowercase.
 
  - Commit message must contain a type(any value in the above provided).
+
+
+### Contributions
+
+Contributions for this project are always welcome, just drop a mail at ```jascee.gtbit@gmail.com```, so that I can assign the push access. Or you can always contribute by raising issues and opening pull requests :)
+
+Cheers !!
