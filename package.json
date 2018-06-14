@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "pre-commit": [
+    "format",
     "lint"
   ],
   "dependencies": {
