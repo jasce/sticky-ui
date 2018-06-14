@@ -7,10 +7,10 @@ import Home from 'Components/Home'
 const Navbar = () => (
   <BrowserRouter>
     <div>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
+      <Link to="/sticky-ui">Home</Link>
+      <Link to="/sticky-ui/about">About</Link>
+      <Route exact path="/sticky-ui/" component={Home} />
+      <Route path="/sticky-ui/about" component={About} />
     </div>
   </BrowserRouter>
 )
