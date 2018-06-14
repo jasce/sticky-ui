@@ -17,7 +17,8 @@ The setup uses precommit hook in order to check and run some scripts before any 
 - Clone the repo.
 - cd repo
 - Run ```yarn ``` to install dependencies.
-- Run ``` npm install ``` to start the dev server.
+- Run ``` npm start ``` to start the dev server.
+- Run ``` npm run deploy ``` to deploy to the github pages.
 
 ### Commit Message Format
 
