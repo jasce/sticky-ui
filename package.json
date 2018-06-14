@@ -2,6 +2,7 @@
   "name": "y",
   "version": "1.0.0",
   "description": "Starter React 16 Project",
+  "homepage": "https://jasce.github.io/sticky-ui/",
   "main": "y",
   "scripts": {
     "test": "echo \"Success: no test specified\"",
@@ -9,7 +10,9 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ./src --ext .js --ext .jsx && sass-lint -v -q",
     "format": "prettier-standard 'src/**/*.{js,jsx}' ",
-    "commitmsg": "commitlint -E GIT_PARAMS"
+    "commitmsg": "commitlint -E GIT_PARAMS",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "author": "",
   "license": "ISC",
@@ -48,6 +51,7 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
+    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "^3.0.6",
     "husky": "^0.14.3",
     "node-sass": "^4.8.1",
