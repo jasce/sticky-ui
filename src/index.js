@@ -7,9 +7,9 @@ import App from './app'
 import './styles/app.scss'
 
 const Test = props => (
-	<BrowserRouter basename="/">
-	    <Route path="/" component={App} />
-	</BrowserRouter>
+  <BrowserRouter basename="/">
+    <Route path="/" component={App} />
+  </BrowserRouter>
 )
 
 ReactDOM.render(<Test />, document.getElementById('root'))
