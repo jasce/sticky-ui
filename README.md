@@ -7,7 +7,15 @@ The setup uses precommit hook in order to check and run some scripts before any 
 
 - At First, a lint scripts runs for javascript files(js, jsx) and sass files.
 - Then, code gets formatted as per community's recommendation.
-- Then, a commit script runs to check the format of the commit message. Recommended commit message is described below:
+- Then, a commit script runs to check the format of the commit message. Recommended commit message is described below.
+
+
+## Installation/Usage
+
+- Clone the repo.
+- cd repo
+- Run ```yarn ``` to install dependencies.
+- Run ``` npm install ``` to start the dev server.
 
 ## Commit Message Format
 
